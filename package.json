@@ -1,0 +1,43 @@
+{
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.20.6",
+    "@react-native-async-storage/async-storage": "^1.17.11",
+    "@rneui/base": "^4.0.0-rc.7",
+    "@rneui/themed": "^4.0.0-rc.7",
+    "@tensorflow/tfjs": "^4.1.0",
+    "@tensorflow/tfjs-react-native": "^0.8.0",
+    "expo": "~47.0.9",
+    "expo-av": "~13.0.2",
+    "expo-camera": "~13.1.0",
+    "expo-file-system": "^15.1.1",
+    "expo-font": "~11.0.1",
+    "expo-gl": "^12.0.1",
+    "expo-image-manipulator": "^11.0.0",
+    "expo-image-picker": "~14.0.2",
+    "expo-media-library": "~15.0.0",
+    "expo-sharing": "~11.0.1",
+    "expo-splash-screen": "~0.17.5",
+    "expo-status-bar": "~1.4.2",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-native": "0.70.5",
+    "react-native-fs": "^2.20.0",
+    "react-native-image-picker": "^4.10.2",
+    "react-native-safe-area-context": "^4.4.1",
+    "react-native-vector-icons": "^9.2.0",
+    "react-native-web": "~0.18.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3"
+  },
+  "private": true,
+  "name": "mobile-camera-app-02",
+  "version": "1.0.0"
+}
